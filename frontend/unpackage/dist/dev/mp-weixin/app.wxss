@@ -1,0 +1,201 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: "iconfont"; /* Project id 4656128 */
+  src: url('data:font/woff2;base64,d09GMgABAAAAAATIAAsAAAAACVQAAAR5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHFQGYACDHAqGAIUTATYCJAMQCwoABCAFhGcHSBsbCMgusG14EyGggAIFXCAYvAzx8DXGen93EZEkZo3pJLJpaF5J0EmJVEikE+8XucqpKxMGUCGFGB0oKcrJZnlkuYD29BWrgPxFhGen4JD7dokt0wCpzJn+zzLQ3h/uZ7pIHGA9GwBkB36wWQINrPPo6L7IaQrTOYDdsJp+j0CtOWUEO3UtPaC5Jjkb4ESM/iAujWujngQZr1dqaKFaVYkeLRAvICY9Ca4Az/7Px19YCBlIKjIYL+2e1o7AiXfSL2lC138XkD/gdbgOcnlCBTKmFmaM83r7IWEYnyJUWxYVWQH016olfkjfjfuS9n9KuCl5tfkvj5BkohIMeT1FXJLlAxPYbIIf49gk/qXpZRJfFNUkNeqUaySx/61FyDXy0PAxDSotyR91HfEccx9XB2jqVJ5r+Dj3MoXCs8u9W6nkrwaPXbpUqeZ3unYMe3at2q2kth8O0S1fplBV3qrmD+5cG9Sz5k4O5VqyxLNsGYa5k5fvb5V9E9Ljmh0HkOihY/sw4VDbMHegfjnvj5auXLFEoRC4Zr8dY3iXBwqX+bvpESW/00/gOqpUb9+NCd27KrN2ANy895ncWNtzh5yx4wR4PHmVv356pOxT1xT37+vut8/pvXu313OlfMbd3CN3alYdUniO9GLlD4dU6vbfx3QW2CA39Bznj1pZV0wAiFWwNzbYO8M709bWBzk884axaZuJ5PbeNMlBiU6bE5at1SUxPY8fkGzW1IRVz+bVVcpYTZ0vDO5X/laneN/gs78PzByf76j8U3M6wcPLpt/3Oj9dtjF+z5Uw3x3xungI+P/5Jwe/zknDC0xqTKU9cG10YsDEi6OosvOTwmCEY4f7ImUqLAhTyWS7paNKTJ07pXZWba4aU/aGTQlLzrjiD5olzXZtjGYjFMU+zJ43PnfsQN5Qvpkw05yAk+BkZmL2E4nRFdH4xrqNuL8leFG0eHDMioak5hQdoXM4ASfByaAbvSg4uiI5q2pa2nD5mklz8chvVd8i/bM39mkWopSWMemViRXRiU/GVOC9Ob2423h8AM9xEVhIrbIDBzvAp3xE8Nin71dhZTJfClt/qWXe1M3h47Ulf6N8mgNfPj62Ut5PBTAF/BICmP8DKcaAiEUNUEqZ2Bb+lIqjxDoJtWrxx6Rp9WwIZRtcTKjWFkNSpQ+yagPYQpyACnUWoFK1bag1qfZ0nTZ2QlHkwIjZBIRmOyFp9AZZs/PYQrwPFTq9h0rN/kGtvVBfV2ckqGoWkRwaIYanEEaKsdGWivOn7UJ6p4VkiyJ9iHUYyRCRmZaRTdUjG2L72OGYqM/iOJqgWcZK1LGvIYuFIewsY0IUl2bgOHtRejpdhkoaxVihGgshcZARhGFTEIwoDBvaRebSf68LoudkQWJBbJ+V5aB51PSETGkyAGy93Ab1XMhsh4n0snA4NL2KxmJYEepUK2Ix4wyCvXyRCULhpDF0iNoVSaeQaFSeNr3SensnoJbxUSUEmBATYWJoOiYZA2nT6xnnJCdlQOKpBucUJDIj2gkAAAAA') format('woff2'),
+       url('data:font/woff;base64,d09GRgABAAAAAAZsAAsAAAAACVQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADsAAABUIIslek9TLzIAAAFEAAAARAAAAGA8N07+Y21hcAAAAYgAAABhAAABnLnULeFnbHlmAAAB7AAAAn8AAAMA/uTyiGhlYWQAAARsAAAALwAAADYo8vqJaGhlYQAABJwAAAAcAAAAJAfeA4VobXR4AAAEuAAAAA4AAAAQEAAAAGxvY2EAAATIAAAACgAAAAoB8gD0bWF4cAAABNQAAAAeAAAAIAESAG9uYW1lAAAE9AAAAUAAAAJnEKM8sHBvc3QAAAY0AAAANwAAAEjgp5Y8eJxjYGRgYOBiMGCwY2BycfMJYeDLSSzJY5BiYGGAAJA8MpsxJzM9kYEDxgPKsYBpDiBmg4gCACY7BUgAeJxjYGFhYJzAwMrAwNTJdIaBgaEfQjO+ZjBi5ACKMrAyM2AFAWmuKQwHnrG/0WNu+N/AwMB8h2E2UJgRRRETAGsFDLZ4nO2QOw6AQAhEH+JnYzyKsTIeZwsrT77V3kGBtfAQDnkEJoRigAFQYzV6kAvBdZor4Stz+D2H7cmqgzKVXLf7/k4hiYsUU+efZeTXEn1/N/XUGp5xyQ3PtW4N9AHn/xOOAAAAeJw9Ur9v00AUvmc3tpvaTs85O02K0+ScXFLS1CU/7CgRoQSppaKdEERqm6oCgRCdujAxMCEBnVhQt1YMICH1D0AgMbMgBiYmJiY2GOvyHFTunu6+p/fp6X3fHZkg5Oye/EH6TjRCSZ3cICTRcJjCRSsonoOwyEVFbokaxFkPGk4mnYfmuF7mixA0y324AoHwijEBC3kpBSaocJLl/BLnsDrD+RLnO9Go0Ezc1pVhirHUEPEt0BV4bdp29NiwIW3CKhXqYCKRjLIxBX5mSs6ENjCvCxE3OA9/oSD5StJ22ULh9Ks6ieAgfcFhMEt/J1XMrEKV/Sm1JYILUONH+Zd8lWwRUmYm4MiXoRX2IZZiU2ZKOPii1KYeF+1WCEEjA3mcvwbUUVTlv+wgpALvSWg2HJUyp1nsQ5uOfVFcgBeaOW1oswZPv60E0/mqHX3L+qX0Q4Pq8EVzNPisJpRU8gHoulPUdEp1TZsCoEY7eho9aRsUqi7UmMvMN6n0gWZoGMcV1zA7lTPiVOcoK/s56Fh6ahKeq2r0SLGsqegVndMz1oyla/BMt2Alem/p0Tv3Irg2EDTWPI49kNGDI/mHvEFWyU1yB00RFdw4uYoKVRNcYHlo9GNjFsHrQxgLzuQhw8c1J4PPiQWuoGw0AgljrkjY8R9BFDScBFPUin2e2fKRFAab23uFve3NIJRcj/dWepx3PWW0tj4sDNfXRorX5c2qd7erzeeKvl+0S1PDl3Wx5J16oiUwpE+lrDxbRgQn+7s7YacT7uzu06637GGrHl5db+uwVq/XDrcQLteu6f6yMZP3Bz6zUvc3jME8UkbLOSFy8bGZKwPAP5wj5C/bCH4CAHicY2BkYGAA4pO83nLx/DZfGbhZGEDg0cvbuQj6fyoLA7MvkMvBwAQSBQAtrwrYAHicY2BkYGBu+N/AEMPCAAJAkpEBFbAAAEcKAm14nGNhYGBgQcIAALAAEQAAAAAAAAByAPQBgAAAeJxjYGRgYGBhSAZiEGACYi4gZGD4D+YzAAASvQGCAAB4nIWRPW7CQBCFn8GQBJQoSqQ0aVYpKBLJ/JRIqVCgp6AHs+ZHttdaL0jUOU2OkBPkCOloc4pIedhDA0W82tlv3r6ZHckA7rCHh/K75y7ZwyWzkiu4wKNwlfqTsE9+Fq6hiZ5wnfqrcAMveBNusmPGDp5/xayFd2EPt/gQruAGn8JV6l/CPvlbuIYH/AjXqf8KNzDxroWbaHnhwOqp03M126lVaNLIpO54jvViE0/tqTzRNl+ZVHWDzlEa6VTbY5t8u+g5F6nImkQNeavj2KjMmrUOXbB0Luu325HoQWgSDGChMYVjnENhhh3jCiEMUkRFdGf5mO4FNohZaf91T+i2yKkfcoUuAnTOXCO60sJ5Ok2OLV/rUXV0K27LmoQ0lFrNSWKy4g883K2phNQDLIuqDH20uaITf1DMkPwB2JNvV3icY2BigAAuBuyAhZGJkZmRhZGVgT8lMT8jMS89Pb+0vDQ5I5W1KqO0MpUlOzWtlIEBAKgfClQA') format('woff'),
+       url('data:font/ttf;base64,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') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-daohanggouwuche:before {
+  content: "\e607";
+}
+.icon-zhuye:before {
+  content: "\e65e";
+}
+.icon-kefu:before {
+  content: "\ec2e";
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-quanbudingdan:before {
+  content: "\e600";
+}
+.icon-daifukuan:before {
+  content: "\e601";
+}
+.icon-tuikuan:before {
+  content: "\e8ab";
+}
+.icon-daishouhuo:before {
+  content: "\e640";
+}
+.icon-home:before {
+  content: "\e69b";
+}
+.icon-shoucang:before {
+  content: "\e666";
+}
+.icon-kefufenxiermaikefu:before {
+  content: "\e889";
+}
+.icon-chakantiezifenxiang:before {
+  content: "\e660";
+}
+.icon-weibiaoti2fuzhi08:before {
+  content: "\e625";
+}
+.icon-dingdan:before {
+  content: "\e897";
+}
+.icon-gouwuche:before {
+  content: "\e899";
+}
+.icon-fukuantongzhi:before {
+  content: "\e60c";
+}
+.icon-icon-:before {
+  content: "\e701";
+}
+.icon-shoucang1:before {
+  content: "\e8c6";
+}
+.icon-search:before {
+  content: "\e648";
+}
+view, text, swiper, swiper-item, image, navigator {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  color: #FF5700;
+}
+/* 如果需要使用 CSS 变量 */
+:root {
+  --themeColor: #FF5700;
+  font-size: 28rpx;
+}
+/* 阿里矢量图库 */
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-quanbudingdan:before {
+  content: "\e600";
+}
+.icon-daifukuan:before {
+  content: "\e601";
+}
+.icon-tuikuan:before {
+  content: "\e8ab";
+}
+.icon-daishouhuo:before {
+  content: "\e640";
+}
+.icon-home:before {
+  content: "\e69b";
+}
+.icon-shoucang:before {
+  content: "\e666";
+}
+.icon-kefufenxiermaikefu:before {
+  content: "\e889";
+}
+.icon-chakantiezifenxiang:before {
+  content: "\e660";
+}
+.icon-weibiaoti2fuzhi08:before {
+  content: "\e625";
+}
+.icon-dingdan:before {
+  content: "\e897";
+}
+.icon-gouwuche:before {
+  content: "\e899";
+}
+.icon-fukuantongzhi:before {
+  content: "\e60c";
+}
+.icon-icon-:before {
+  content: "\e701";
+}
+.icon-shoucang1:before {
+  content: "\e8c6";
+}
+.icon-search:before {
+  content: "\e648";
+}
+view, text, swiper, swiper-item, image, navigator {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  color: #FF5700;
+}
+/* 如果需要使用 CSS 变量 */
+:root {
+  --themeColor: #FF5700;
+  font-size: 28rpx;
+}page{--status-bar-height:25px;--top-window-height:0px;--window-top:0px;--window-bottom:0px;--window-left:0px;--window-right:0px;--window-magin:0px}[data-c-h="true"]{display: none !important;}

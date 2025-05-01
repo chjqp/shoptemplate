@@ -1,0 +1,1 @@
+<view class="search-bar data-v-9156a6ed"><uni-icons wx:if="{{a}}" class="search-icon data-v-9156a6ed" u-i="9156a6ed-0" bind:__l="__l" u-p="{{a}}"/><input class="search-input data-v-9156a6ed" placeholder="请输入搜索内容" bindfocus="{{b}}" value="{{c}}" bindinput="{{d}}"/></view>

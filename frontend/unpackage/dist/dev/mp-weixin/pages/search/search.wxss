@@ -1,0 +1,36 @@
+
+.search_row.data-v-c10c040c {
+  height: 60rpx;
+  display: flex;
+}
+.search_row input.data-v-c10c040c {
+  background-color: #FFFFFF;
+  flex: 1;
+  height: 100%;
+  padding-left: 30rpx;
+  color: #000000; /* 设置文字颜色为黑色 */
+}
+.search_row button.data-v-c10c040c {
+  display: flex;
+  width: 110rpx !important;
+  height: 100%;
+  font-size: 26rpx;
+  padding: 0;
+  margin: 0 10rpx;
+  justify-content: center;
+  align-items: center;
+}
+.search_content.data-v-c10c040c {
+  margin-top: 15rpx;
+  padding: 0px;
+}
+.search_content .search_item.data-v-c10c040c {
+  background-color: #FFFFFF;
+  font-size: 26rpx;
+  padding: 15rpx;
+  align-items: center;
+  border-bottom: 1rpx solid #EAEAEA;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

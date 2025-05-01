@@ -1,0 +1,40 @@
+/* @font-face {
+  font-family: "iconfont"; /* Project id 4656128 */
+/*  src: url('iconfont.woff2?t=1724127684053') format('woff2'),
+       url('iconfont.woff?t=1724127684053') format('woff'),
+       url('iconfont.ttf?t=1724127684053') format('truetype'); */
+	/*src: url('@/static/css/iconfont.woff2?t=1724127684053') format('woff2'),
+	      url('@/static/css/iconfont.woff') format('woff'),
+	      url('@/static/css/iconfont.ttf') format('truetype');
+/* } */ 
+@font-face {
+  font-family: "iconfont";
+  src: url('./iconfont.woff2?t=1724127684053') format('woff2'),
+       url('./iconfont.woff') format('woff'),
+       url('./iconfont.ttf') format('truetype');
+}
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zhuye:before {
+  content: "\e65e";
+}
+
+.icon-gouwuche:before {
+  content: "\e70b";
+}
+
+.icon-kefu1:before {
+  content: "\e625";
+}
+
+.icon-kefu:before {
+  content: "\ec2e";
+}

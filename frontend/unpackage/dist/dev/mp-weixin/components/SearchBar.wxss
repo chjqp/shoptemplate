@@ -1,0 +1,27 @@
+
+.search-bar.data-v-2334f7bd {
+  position: relative;
+  width: 90%; /* 调整宽度，使其更加居中 */
+  margin: 10rpx auto; /* 添加外边距使其不紧贴顶部 */
+  height: 60rpx;
+  border: 1rpx solid #FF5700; /* 设置橙色边框 */
+  border-radius: 30rpx; /* 圆角 */
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+}
+.search-input.data-v-2334f7bd {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 28rpx;
+  color: #666;
+  background-color: transparent;
+  margin-left: 10rpx; /* 搜索图标与文字之间留出一些间距 */
+}
+.search-icon.data-v-2334f7bd {
+  flex-shrink: 0;
+}

@@ -1,0 +1,115 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "易佰佳鸡排"
+			}
+		},
+		{
+			"path" : "pages/category/category",
+			"style" : 
+			{
+				"navigationBarTitleText" : "分类"
+			}
+		},
+		{
+			"path" : "pages/cart/cart",
+			"style" : 
+			{
+				"navigationBarTitleText" : "小推车"
+			}
+		},
+		{
+			"path" : "pages/my/my",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心"
+			}
+		},
+		{
+			"path" : "pages/search/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : "搜索"
+			}
+		},
+		{
+			"path" : "pages/product_detail/product_detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "商品详情"
+			}
+		},
+		{
+			"path" : "pages/pay/pay",
+			"style" : 
+			{
+				"navigationBarTitleText" : "支付"
+			}
+		},
+		{
+			"path" : "pages/order/order",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单查询"
+			}
+		}		
+		
+		
+	],
+	
+	"globalStyle": {
+	    "backgroundTextStyle": "light",
+	    "navigationBarBackgroundColor": "#FF5700",
+	    "navigationBarTitleText": "大脸鸡排",
+	    "navigationBarTextStyle": "white",
+	    "backgroundColor": "#F8F8F8",
+	    "backgroundColorTop": "#FF5700", // 状态栏顶部背景颜色，仅在 APP 和 微信小程序中生效
+	    "backgroundColorBottom": "#ffffff" // 底部背景颜色，仅在 APP 中生效
+	    },
+	"tabBar": {
+			"color": "#999",
+			"selectedColor": "#FF5700",
+			"backgroundColor": "#fafafa",
+			"borderStyle": "black",
+			"position": "bottom",
+			"list": [
+				{
+					"pagePath": "pages/index/index",
+					"text": "首页",
+					"iconPath": "static/icons/_home.png",
+					"selectedIconPath": "static/icons/home.png"
+				},
+				{
+					"pagePath": "pages/category/category",
+					"text": "分类",
+					"iconPath": "static/icons/_category.png",
+					"selectedIconPath": "static/icons/category.png"
+				},
+				{
+					"pagePath": "pages/cart/cart",
+					"text": "小推车",
+					"iconPath": "static/icons/_cart.png",
+					"selectedIconPath": "static/icons/cart.png"
+				},
+				{
+					"pagePath": "pages/my/my",
+					"text": "我的",
+					"iconPath": "static/icons/_my.png",
+					"selectedIconPath": "static/icons/my.png"
+				}
+			]
+		},
+	  
+	"uniIdRouter": {},
+	
+	  "mp-weixin": {
+	    // 其他配置
+	    "requiredPrivateInfos": [
+	      "chooseAddress"
+	    ]
+	  }
+	
+
+}

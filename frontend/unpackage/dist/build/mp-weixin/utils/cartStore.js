@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js"),t=e.ref(e.index.getStorageSync("cart")||[]),r=e.ref(e.index.getStorageSync("address")||{});e.watch(t,(t=>{e.index.setStorageSync("cart",t)}),{deep:!0}),exports.address=r,exports.cart=t,exports.setAddress=t=>{r.value=t,e.index.setStorageSync("address",t)},exports.setCart=r=>{t.value=r,e.index.setStorageSync("cart",r)};

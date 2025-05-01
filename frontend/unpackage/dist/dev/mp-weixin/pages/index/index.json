@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "易佰佳鸡排",
+  "usingComponents": {
+    "search-bar": "../../components/SearchBar"
+  }
+}

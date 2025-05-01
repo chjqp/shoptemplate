@@ -1,0 +1,100 @@
+
+.page.data-v-0eb4e14b {
+  padding-bottom: 90rpx;
+}
+.product_swiper.data-v-0eb4e14b {
+  width: 100%;
+  height: 375rpx;
+  overflow: hidden;
+}
+.product_swiper swiper.data-v-0eb4e14b {
+  width: 100%;
+  height: 100%;
+}
+.swiper_image.data-v-0eb4e14b {
+  width: 100%;
+  height: 100%;
+}
+.product_price.data-v-0eb4e14b {
+  padding: 15rpx;
+  font-size: 42rpx;
+  font-weight: 600;
+  color: var(--themeColor);
+}
+.product_name.data-v-0eb4e14b {
+  padding: 15rpx;
+  font-size: 40rpx;
+  font-weight: 600;
+  border-top: 1rpx solid #dedede;
+}
+.product_description.data-v-0eb4e14b {
+  padding: 0 10rpx 25rpx 10rpx;
+  border-bottom: 1rpx solid #dedede;
+}
+.desc_tabs .tabs_title.data-v-0eb4e14b {
+  display: flex;
+}
+.desc_tabs .tabs_title .title_item.data-v-0eb4e14b {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx;
+}
+.desc_tabs .tabs_title .active.data-v-0eb4e14b {
+  color: var(--themeColor);
+}
+.desc_tabs .tabs_content rich-text img.data-v-0eb4e14b {
+  width: 100%;
+}
+.btm_tool.data-v-0eb4e14b {
+  padding: 15rpx;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 140rpx;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.btm_tool .tool_item.data-v-0eb4e14b {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+  position: relative;
+}
+.btm_tool .tool_item button.data-v-0eb4e14b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.btm_tool .btn_cart.data-v-0eb4e14b {
+  flex: 2;
+  background-image: linear-gradient(90deg, #fbbd00, #f7971e); /* 更加柔和的渐变 */
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 600;
+  border-radius: 20rpx; /* 统一圆角 */
+  margin-right: 10rpx; /* 增加按钮之间的间距 */
+  padding: 10rpx 0; /* 增加按钮的内边距 */
+  box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.1); /* 柔和的阴影效果 */
+}
+.btm_tool .btn_buy.data-v-0eb4e14b {
+  flex: 2;
+  background-image: linear-gradient(90deg, #ff6034, #ee0a24); /* 更加柔和的渐变 */
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: 600;
+  border-radius: 20rpx; /* 统一圆角 */
+  padding: 10rpx 0; /* 增加按钮的内边距 */
+  box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.1); /* 柔和的阴影效果 */
+}
+

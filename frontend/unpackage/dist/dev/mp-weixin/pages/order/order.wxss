@@ -1,0 +1,36 @@
+
+.order_main.data-v-93207a4f {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+  color: #000; /* 修改为黑色 */
+}
+.order_main .order_item.data-v-93207a4f {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+  color: #000; /* 修改为黑色 */
+}
+.order_main .order_item .order_no_row.data-v-93207a4f {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 0;
+  color: #000; /* 修改为黑色 */
+}
+.order_main .order_item .order_no_row .order_no_value.data-v-93207a4f {
+  color: #000; /* 修改为黑色 */
+}
+.order_main .order_item .order_price_row.data-v-93207a4f {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 0;
+  color: #000; /* 修改为红色 */
+}
+.order_main .order_item .order_price_row .order_price_value.data-v-93207a4f {
+  color: #FF0000; /* 修改为红色 */
+  font-size: 32rpx;
+}
+.order_main .order_item .order_time_row.data-v-93207a4f {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 0;
+  color: #000; /* 修改为黑色 */
+}
